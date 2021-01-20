@@ -1,0 +1,61 @@
+MMSfirst = MMS - MMS1
+msec1 = msec $ 1
+msecf1 = msec - msec1
+msecf1 == MMSfirst
+
+
+
+MMF = MMS $ p_p1 on msec
+FCF = FCS $ p_p2 on msec
+EMF = EMS $ p_p3 on msec
+p_p1∈[2,3]
+p_p2∈[1,3]
+p_p3∈[1,2]
+
+FCS1 = FCS $ 1
+EMS1 = EMS $ 1
+MMS1 = MMS $ 1
+
+FCF ≤ FCS1
+MMF ≤ MMS1
+EMF ≤ EMS1
+
+MMF ≤ FCS
+FCF ≤ EMS
+MMF ≤ EMS
+
+MMF1 = MMF $ 1
+FCS ≤ MMF1
+//这里的FCS最好是<MMF1，也就是任务转化可能需要改，但是先试试
+
+FCF1 = FCF $ 1
+EMS ≤ FCF1
+
+EMS ≤ MMF1
+
+
+
+MMS = msec ∝ 5 ± 2
+EMS = msec ∝ 5 ± 2
+FCS = msec ∝ 5 ± 2
+
+MMFCS = MMS + FCS
+MMFCS1 = MMFCS $ 1
+MMFCF = MMF + FCF
+MMFCS < MMFCF
+MMFCF ≤  MMFCS1
+MMS # FCS
+
+FCEMS = FCS + EMS
+FCEMS1 = FCEMS $ 1
+FCEMF = FCF + EMF
+FCEMS < FCEMF
+FCEMF ≤ FCEMS1
+FCS # EMS
+
+MMEMS = MMS + EMS
+MMEMS1 = MMEMS $ 1
+MMEMF = MMF + EMF
+MMEMS < MMEMF
+MMEMF ≤ MMEMS1
+MMS # EMS

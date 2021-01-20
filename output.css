@@ -1,0 +1,95 @@
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    /*border-radius:10px;*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999;
+}
+
+#dpic {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    font: caption;
+}
+
+#dpic ul {
+    list-style: none;
+    padding: 0;
+    margin: 13px 10px;
+    white-space: nowrap;
+}
+
+#dpic ul li {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    border-left: 0.1px dashed #000;
+    border-right: 0.1px dashed #000;
+    border-bottom: 0.2px dashed #000;
+    font-weight: 800;
+}
+
+#dpic ul .name {
+    width: 35px;
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    border: none;
+}
+
+#dpic ul .up {
+    border-left: 0.1px dashed #000;
+    border-right: 0.1px dashed #000;
+    border-top: 0.1px dashed #000;
+    border-bottom: 0.1px dashed #000;
+    border-top: 2px solid black;
+}
+
+#dpic ul .down {
+    border-left: 0.1px dashed #000;
+    border-right: 0.1px dashed #000;
+    border-top: 0.1px dashed #000;
+    border-bottom: 0.1px dashed #000;
+    border-bottom: 2px solid black;
+}
+
+#dpic ul .upl {
+    border-left: 0.1px dashed #000;
+    border-right: 0.1px dashed #000;
+    border-top: 0.1px dashed #000;
+    border-bottom: 0.1px dashed #000;
+    margin-left: -0.1px;
+    border-top: 2px solid black;
+    border-left: 0.1px solid black;
+}
+
+#dpic ul .downl {
+    border-left: 0.1px dashed #000;
+    border-right: 0.1px dashed #000;
+    border-top: 0.1px dashed #000;
+    border-bottom: 0.1px dashed #000;
+    margin-left: -0.1px;
+    border-bottom: 2px solid black;
+    border-left: 0.1px solid black;
+}
+
+.history {
+    width: 100px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 0;
+}
